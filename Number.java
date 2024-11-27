@@ -10,25 +10,26 @@ public class Number {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        int higher = max (a, b , c);
+        int higher = max(a, b, c);
 
         showResult(higher);
 
         sc.close();
     }
-public static int max(int x, int y, int z){
+
+    public static int max(int x, int y, int z) {
         int aux;
-        if (x > y && x > z){
+        if (x > y && x > z) {
             aux = x;
-        } else if (y > z){
+        } else if (y > z) {
             aux = y;
         } else {
             aux = z;
         }
-    return aux;
-}
+        return aux;
+    }
 
-public static void showResult(int value){
+    public static void showResult(int value) {
         System.out.println("Higher = " + value);
     }
 
