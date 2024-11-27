@@ -18,8 +18,8 @@ public class Main {
         System.out.printf("Products:%n%s, which price is $ %.2f%n%s, which price is $ %.2f%n", product1, price1, product2, price2);
 
         System.out.printf("Record: %d years old, code %d and gender: %c", age, code, gender);
-        System.out.printf ("%nMeasure with eight decimal places: %.8f", measure);
-        System.out.printf ("%nRounded (three decimal places): %.3f%n", measure);
+        System.out.printf("%nMeasure with eight decimal places: %.8f", measure);
+        System.out.printf("%nRounded (three decimal places): %.3f%n", measure);
         System.out.printf(Locale.US, "US decimal point: %.2f", measure);
     }
 
